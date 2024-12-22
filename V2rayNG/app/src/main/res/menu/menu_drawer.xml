@@ -31,6 +31,12 @@
             android:id="@+id/about"
             android:icon="@drawable/ic_about_24dp"
             android:title="@string/title_about" />
+
+        <item
+    android:id="@+id/nav_support"
+    android:title="پشتیبانی آنلاین"
+    android:icon="@drawable/ic_support" />
+
         <!-- place holder for version text at the bottom -->
         <item
             android:id="@+id/placeholder"
