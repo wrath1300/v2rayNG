@@ -759,6 +759,15 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             R.id.about -> {
                 startActivity(Intent(this, AboutActivity::class.java))
             }
+
+            when (item.itemId) {
+    R.id.nav_support -> {
+        val intent = Intent(this, SupportActivity::class.java)
+        startActivity(intent)
+    }
+    // سایر آیتم‌های منو
+}
+
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true
