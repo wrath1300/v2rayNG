@@ -12,6 +12,6 @@ class SupportActivity : AppCompatActivity() {
         setContentView(webView)
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = WebViewClient()
-        webView.loadUrl("https://embed.tawk.to/YOUR_PROPERTY_ID/default")
+        webView.loadUrl("https://embed.tawk.to/67675af8af5bfec1dbdfbdf0/default")
     }
 }
